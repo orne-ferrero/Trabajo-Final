@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -7,7 +7,6 @@ body {
   background-color:antiquewhite;
 }
 
-/* Estilos para el contenedor del header */
 header {
   display: flex;
   align-items: center;
@@ -17,14 +16,12 @@ header {
   padding: 10px;
 }
 
-/* Estilos para el logo */
 .logo {
   width: 200px;
   margin-right: auto;
 
 }
 
-/* Estilos para el contenido del nav */
 nav {
   display: flex;
   
@@ -42,13 +39,12 @@ nav a:hover {
   background-color: #f5433d;
 }
 
-/* Estilos para el contenido principal */
 h1 {
   text-align: center;
 }
 div {
-  position: relative; /* Establece el div como un contexto de posicionamiento para los elementos internos */
-  text-align: center; /* Centra horizontalmente el contenido dentro del div */
+  position: relative; 
+  text-align: center; 
 }
 
 
@@ -56,10 +52,8 @@ h2{
   text-align: center;
 }
 
-
-/* Estilos para las imágenes de ingredientes */
 .ingredientes {
-  margin: 0 10px; /* Separación horizontal entre las imágenes */
+  margin: 0 10px; 
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 450px;
@@ -68,14 +62,12 @@ h2{
 }
 
 
-/* Estilos para el formulario de suscripción */
+
 form {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-
-
 
 
 
