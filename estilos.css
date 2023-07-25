@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color:antiquewhite;
+}
+
+/* Estilos para el contenedor del header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(255, 255, 252);
+  color:black;
+  padding: 10px;
+}
+
+/* Estilos para el logo */
+.logo {
+  width: 200px;
+  margin-right: auto;
+
+}
+
+/* Estilos para el contenido del nav */
+nav {
+  display: flex;
+  
+}
+
+nav a {
+  margin-right: 20px;
+  color: #141111;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+nav a:hover {
+  background-color: #f5433d;
+}
+
+/* Estilos para el contenido principal */
+h1 {
+  text-align: center;
+}
+div {
+  position: relative; /* Establece el div como un contexto de posicionamiento para los elementos internos */
+  text-align: center; /* Centra horizontalmente el contenido dentro del div */
+}
+
+
+h2{
+  text-align: center;
+}
+
+
+/* Estilos para las imágenes de ingredientes */
+.ingredientes {
+  margin: 0 10px; /* Separación horizontal entre las imágenes */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+}
+
+
+/* Estilos para el formulario de suscripción */
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+.boton {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #fd2f2f;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}

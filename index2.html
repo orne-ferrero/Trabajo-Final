@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comprar</title>
+  <link rel="stylesheet" href="estilos2.css"/ >
+ 
+</head>
+<body>
+  <header>
+    <a href="./index.html">
+      <button class="boton">Volver</button>
+    </a>
+    <h1> Tienda</h1>
+  </header>
+
+<div class="contenedor-items">    <!-- contenedor de todos los productos   -->
+
+  <div class="item">
+    <figure> 
+    <img src="./imagenes/producto1.jpg" alt="bolsas1y2kg" >
+  </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Bolsas de 1 kg</h2>
+      <p class="precio"> $200 </p>
+    </div>
+  </div>
+
+
+  <div class="item">
+    <figure>
+    <img src="./imagenes/2marca.jpg" alt="2 marca" >
+  </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Segunda marca Quimera</h2>
+      <p class="precio"> $100 </p>
+    </div>
+  </div>
+
+
+  <div class="item">
+    <figure>
+       <img src="./imagenes/25kg.jpg" alt="25 kg" >
+    </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Bolsas de 25 kg</h2>
+      <p class="precio"> $5000 </p>
+    </div>
+  </div>
+
+  <div class="item">
+    <figure>
+       <img src="./imagenes/50kg.jpg" alt="50 kg" >
+    </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Bolsas de 50 kg</h2>
+      <p class="precio"> $10000 </p>
+    </div>
+  </div>
+
+  <div class="item">
+    <figure>
+       <img src="./imagenes/2kg.jpg" alt="2 kg">
+    </figure>
+    <div class="info-producto">
+      <h2 class="titulo"> Bolsas de 2 kg</h2>
+      <p class="precio"> $400 </p>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <div class="seleccionar">
+    <h2> Seleccione los productos : </h2>
+    <div class="seleccion"> 
+        <span> 1 Kg </span>
+        <input type="checkbox" id="1" name="opcion" > Cantidad
+        <input type="number" id="cant1" name="cantidad"> <br>
+        <span> 2 Kg</span>
+        <input type="checkbox" id="2" name="opcion" > Cantidad
+        <input type="number" id="cant2" name="cantidad"> <br>
+        <span> 25 Kg</span>
+        <input type="checkbox" id="25" name="opcion" > Cantidad
+        <input type="number" id="cant25" name="cantidad"> <br>
+        <span> 50 Kg</span>
+        <input type="checkbox" id="50" name="opcion" > Cantidad
+        <input type="number" id="cant50" name="cantidad"> <br>
+        <span> Quimera</span>
+        <input type="checkbox" id="Q" name="opcion" > Cantidad
+        <input type="number" id="cantQ" name="cantidad"> <br>
+      <br>
+      <br>
+      <button class="boton" type="button" onclick="calcular()"> CALCULAR</button>
+      <button class="boton" type="button" onclick="borrar()"> borrar</button>
+<br>
+<br>
+<br>
+    </div>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
